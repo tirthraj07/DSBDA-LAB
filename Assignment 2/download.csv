@@ -1,0 +1,206 @@
+gender,race/ethnicity,parental level of education,lunch,test preparation course,math score,reading score,writing score
+M,Group B,Masters Degree,free/reduced,none, eighty,101, N/A
+ female,Group B,master's degree,standard, None,,101,92
+Male ,group c,some college,Free/reduced ,completed,,, N/A
+Other,group c,Bachelor's,standard,none, eighty,seventy-five,-6
+,,high school,,completed,84,84, N/A
+ female,group B,high school,standard,Completed ,?,seventy-five,
+F,Group B,some high school,,Completed , eighty,,
+ female, group C,Masters Degree,free/reduced,,105,103,
+,group E,bachelor's degree,,,10,73,-1
+female,Group D,some college,,,?,62,4
+ female, group C,Bachelor's,free/reduced,,93,69, N/A
+female,,bachelor's degree,free/reduced,,58,,101
+Other,Group B,Masters Degree,Free/reduced ,Completed ,,,75
+male,group c,master's degree,standard,Completed ,,97,2
+F, group C,master's degree,, None,,,101
+Other,Group D,bachelor's degree,Free/reduced ,,104,seventy-five,88
+F,group c,associate's degree,standard,Completed ,33,30,101
+female,group A,master's degree,Free/reduced , None, eighty,42,-6
+Other,group A,,standard,Completed ,39,, N/A
+ female,Group D,,standard,,,104,7
+Other, group C,some college,,completed,,88, N/A
+M,group B,Bachelor's, Standard,none,67,101,101
+Other,group E,Bachelor's,,Not Taken, eighty,,25
+Male ,group E,master's degree,standard,,37,seventy-five,1
+Other, group C,Bachelor's, Standard,completed,67,,73
+M,group A,Masters Degree,Free/reduced ,Completed ,94,,61
+female,Group B,high school,,completed,13,64,101
+ female,group A,,Free/reduced , None,3,, N/A
+,group c,master's degree,free/reduced,completed,108,,
+ female,group B,Bachelor's, Standard,none,14,,-7
+F,Group D,,free/reduced, None,,80,65
+Male ,Group B,bachelor's degree,Free/reduced ,completed, eighty,63,75
+female,Group B,associate's degree,free/reduced,none,,,101
+F,group B,High School,free/reduced,completed,71,105,
+Male ,Group B,some high school, Standard,,108,seventy-five,65
+Other,Group D,high school,Free/reduced ,completed,60,,101
+ female,group B,bachelor's degree,Free/reduced ,none,?,100,73
+, group C,high school,, None, eighty,85, N/A
+Male ,Group B,Bachelor's,free/reduced,completed, eighty,,7
+M,group E,some college,Free/reduced ,none,80,102,92
+male,,Bachelor's,free/reduced,completed,110,,
+ female,group B,some high school,Free/reduced ,Completed ,61,94,101
+M,group A,Masters Degree,Free/reduced ,completed,101,72,101
+male,group A,high school, Standard,Completed ,20,105,5
+male,Group D,,standard,,?,70, N/A
+female,Group B,associate's degree,free/reduced,none,89,103,82
+female, group C,,standard, None,?,56,101
+Other,group B,High School,standard,Not Taken,63,101,55
+,,master's degree, Standard,Completed ,0,103,5
+F,Group B,some high school,standard,none,-5,,63
+female,group B,some college,standard,Completed , eighty,102,65
+,group E,Masters Degree,,Not Taken,73,, N/A
+,Group D,bachelor's degree,standard, None,?,100,101
+female,Group D,Bachelor's,,,,,62
+Other, group C,master's degree,free/reduced, None,?,101,66
+Other,Group D,Bachelor's, Standard, None,,86,101
+Other, group C,high school, Standard,Completed ,,seventy-five,
+ female,group E,Bachelor's,free/reduced,,1,38,0
+Other,group E,master's degree,Free/reduced ,Completed ,109,seventy-five,101
+,Group B,some high school, Standard, None, eighty,,
+,group B,master's degree,Free/reduced ,completed,15,64,101
+,Group B,Bachelor's, Standard,Completed ,-2,seventy-five,101
+female, group C,Bachelor's,,,?,seventy-five, N/A
+female,group B,associate's degree,,Not Taken,,seventy-five, N/A
+female,group B,some high school,standard,none,8,77, N/A
+F,Group D,associate's degree,standard, None,103,,
+Other,group A,Masters Degree,free/reduced,none, eighty,100,101
+Male ,,some college,free/reduced,Completed ,?,31, N/A
+M,,some college,standard, None,68,26,101
+,group A,High School,Free/reduced ,Completed ,103,104,59
+Male ,,master's degree,Free/reduced ,Not Taken,55,seventy-five,62
+male,Group D,,Free/reduced , None,?,101, N/A
+Male ,group c,High School,,none,62,,
+M,group c,high school,Free/reduced ,Completed ,?,,
+,group c,Bachelor's,free/reduced,Not Taken,107,68,4
+Other,group A,Bachelor's, Standard,,105,,-4
+male,group B,some high school, Standard,none,89,44,41
+male,group B,bachelor's degree, Standard,Not Taken, eighty,39,
+F,Group D,master's degree,Free/reduced , None,103,seventy-five,75
+Male , group C,associate's degree,Free/reduced ,none,88,100,
+F,group E,high school,free/reduced,Completed ,97,103,93
+Male ,group B,associate's degree,,none,98,seventy-five,77
+M,group c,master's degree, Standard, None,?,84,80
+Male ,Group B,High School,standard,Not Taken,?,98,65
+Other,,high school,Free/reduced , None, eighty,,-10
+Male ,group B,some college,free/reduced,none,51,101, N/A
+female, group C,High School,standard,Completed ,50,, N/A
+ female, group C,high school,standard, None,96,, N/A
+female,group E,associate's degree,,none,88,,101
+M,Group D,bachelor's degree,Free/reduced ,Completed , eighty,73,101
+ female,Group B,Bachelor's,standard,Completed ,64,,101
+Other,group E,Masters Degree,,none,?,31,101
+M,group c,,,Completed ,47,96,-4
+F, group C,high school, Standard,,14,101,101
+Male ,Group D,high school,,,100,seventy-five,101
+, group C,Masters Degree,, None,79,seventy-five,61
+F,group A,master's degree,free/reduced,Completed ,110,102,59
+female,Group B,associate's degree,free/reduced,none,89,103,82
+M,group A,master's degree,standard,,,seventy-five,
+,group A,bachelor's degree,standard,,?,104,101
+Male , group C,some college,standard,completed,92,,
+M,Group B,master's degree,free/reduced,,76,101,7
+Male ,group A,Bachelor's,,Not Taken,,102,3
+,group A,some college,Free/reduced ,Not Taken,?,101,101
+M,group c,,standard,none,,73,101
+F,group A,High School,standard,,,seventy-five,54
+ female,Group D,master's degree, Standard,,77,,65
+female,group A,Masters Degree,Free/reduced ,completed,74,32,63
+M,Group B,master's degree,free/reduced,Not Taken,96,43,5
+F,group E,Masters Degree,Free/reduced ,none, eighty,61,5
+F, group C,Masters Degree,,Not Taken, eighty,101, N/A
+M,Group D,master's degree,,completed,87,seventy-five,101
+male,Group B,Masters Degree,Free/reduced ,Completed ,99,79,101
+F,group c,associate's degree, Standard,Not Taken,?,,64
+,group A,some high school,standard,Completed , eighty,60,66
+Other,group B,,free/reduced,,?,, N/A
+male,group B,associate's degree,,Not Taken, eighty,103,8
+Other,Group D,,free/reduced,none,95,,85
+,group c,some college, Standard,none,101,87,
+Male ,,bachelor's degree,,completed,-1,73,80
+,,some high school,,completed,?,82, N/A
+ female,group B,bachelor's degree,free/reduced,none,14,101,78
+F,Group D,bachelor's degree, Standard,Not Taken, eighty,seventy-five,4
+Male , group C,, Standard,Not Taken,42,,
+Other,group c,,,Completed ,79,,101
+female,group c,, Standard,Completed ,,101, N/A
+ female,group c,Masters Degree,standard,completed,,seventy-five, N/A
+male,group A,Bachelor's,Free/reduced , None,53,seventy-five,-1
+male,,high school,free/reduced,Completed ,106,,89
+M,group c,some college,Free/reduced ,none,9,68,97
+Other,group A,High School, Standard,Completed ,55,88, N/A
+M,,master's degree,Free/reduced , None,?,seventy-five,1
+F,group c,bachelor's degree,standard,,?,102, N/A
+M,Group D,associate's degree,standard,none,84,,101
+Male ,Group B,Masters Degree,standard, None,,57,88
+M,Group D,some college,,,,92, N/A
+F,group A,, Standard,completed,,75,26
+Male ,group A,bachelor's degree,Free/reduced ,Not Taken,63,101,78
+F,group A,Masters Degree, Standard,Not Taken,8,,101
+M,,High School, Standard,,?,101, N/A
+,group A,high school,standard,Completed ,?,35,58
+F,group B,associate's degree,,completed,68,29,54
+ female,group E,some high school,Free/reduced ,Not Taken,9,, N/A
+male,Group D,Bachelor's,Free/reduced , None,-4,64,
+female,group c,master's degree,Free/reduced , None,103,,85
+Male ,group c,some high school,Free/reduced ,Not Taken,68,62,101
+ female, group C,Bachelor's,Free/reduced ,none,,100,
+Other,group E,bachelor's degree,,completed,,,101
+F,Group D,high school, Standard,,85,,
+Male ,,High School,,completed, eighty,101, N/A
+,Group B,master's degree,,Not Taken,,100,
+ female, group C,bachelor's degree,,none,96,,101
+M,group E,Masters Degree,free/reduced,Completed ,99,67,101
+ female,Group D,,standard,,,104,7
+,Group D,Bachelor's,Free/reduced ,Not Taken,?,,96
+,,associate's degree,standard,none,,69,77
+F,group c,master's degree,standard,completed,-1,seventy-five,6
+male,group c,master's degree,standard,Completed , eighty,,
+female, group C,High School,free/reduced,Completed ,75,,66
+male, group C,,Free/reduced ,completed,110,70,4
+Male ,Group B,some high school, Standard,,108,seventy-five,65
+male,Group B,High School,free/reduced,completed,10,92,74
+Male ,,Bachelor's,Free/reduced ,Completed , eighty,,101
+male,group A,Masters Degree,,Not Taken,65,seventy-five,85
+Other,,high school,Free/reduced , None,,88, N/A
+Other,group A,associate's degree,Free/reduced ,Completed ,47,75,-4
+Male ,group E,,free/reduced, None, eighty,seventy-five, N/A
+F, group C,associate's degree, Standard, None,,27,
+male, group C,High School,,completed, eighty,, N/A
+Other,group B,some college,Free/reduced ,completed, eighty,,101
+F,group B,, Standard,Not Taken, eighty,seventy-five,55
+Male ,,high school,,none,?,seventy-five,42
+F,group c,Masters Degree,,completed,104,, N/A
+,group E,High School,,none,108,,
+male,group c,high school,Free/reduced ,Not Taken,103,seventy-five,4
+female,Group D,some high school,free/reduced,Not Taken,98,,-9
+ female,,high school,free/reduced,Completed ,,104,64
+ female,,Masters Degree,Free/reduced ,Not Taken, eighty,100,74
+F,group E,some high school,standard,,,, N/A
+female, group C,master's degree,free/reduced,none,29,93,1
+, group C,master's degree, Standard,,102,99, N/A
+female,group c,high school,,,3,96,10
+Other,group B,Bachelor's,free/reduced,Completed ,4,104,57
+,Group D,Bachelor's,Free/reduced ,Not Taken,11,102,
+,group A,High School,Free/reduced ,Completed ,103,104,59
+,group c,some high school,Free/reduced ,Completed ,,104,10
+female,group c,bachelor's degree,Free/reduced ,Not Taken,42,103,
+, group C,some high school,standard,Completed ,104,,101
+female,group E,some high school,standard, None, eighty,,83
+ female,Group B,Bachelor's,,Not Taken,64,,64
+male,group A,High School,Free/reduced ,completed, eighty,57,
+ female,Group B,some high school,Free/reduced , None,86,77, N/A
+Male ,Group B,Masters Degree,,,69,73,101
+F,Group D,bachelor's degree, Standard,Not Taken, eighty,seventy-five,4
+F,Group B,associate's degree, Standard,,,54,54
+F,Group B,,Free/reduced ,completed,?,,
+Other,group E,Bachelor's, Standard,Not Taken,?,seventy-five, N/A
+male,group B,master's degree,standard,,14,, N/A
+F,group B,high school,free/reduced,Not Taken,13,seventy-five,
+F,group c,Bachelor's, Standard,Completed ,4,,84
+female, group C,,free/reduced,,23,,62
+Other,group A,Masters Degree, Standard,Completed ,0,seventy-five,101
+male,Group B,high school,Free/reduced ,,,47,101
+Other,Group D,some college,,,?,,
+Male ,group B,associate's degree,standard,,74,,
