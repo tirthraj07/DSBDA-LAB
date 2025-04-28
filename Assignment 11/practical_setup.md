@@ -1,9 +1,10 @@
-# Step 1:
+# Step 1: Run JVM Process Status (jps)
 ```bash
 hadoop@pict-OptiPlex-5070:~$ jps
 3890 Jps
 ```
-# Step 2
+---
+# Step 2: Start all Apache Hadoop Daemons
 ```bash
 hadoop@pict-OptiPlex-5070:~$ start-all.sh
 
@@ -16,9 +17,8 @@ Starting secondary namenodes [pict-OptiPlex-5070]
 Starting resourcemanager
 Starting nodemanagers
 ```
-
-# Step 3
-
+---
+# Step 3: Run JPS to verify
 ```bash
 hadoop@pict-OptiPlex-5070:~$ jps
 
@@ -29,60 +29,45 @@ hadoop@pict-OptiPlex-5070:~$ jps
 4393 DataNode
 5230 NodeManager
 ```
-
+---
 # Step 4:
 Goto http://localhost:9870 (namenode)
 
-Goto `Live Nodes` -> click http address of datanode (open in new tab)
+Goto `Utilities` -> Browse File System (open in new tab)  
 
-Goto http://localhost:8088/cluster (all jobs)
+Goto `Live Nodes` -> click http address of datanode (open in new tab)  
 
-# Step 5: (OPTIONAL)
+Goto http://localhost:8088/cluster (all jobs)  
 
-Check directories
-
-```bash
-hadoop@pict-OptiPlex-5070:~$ hadoop fs -ls 
-Found 6 items
-drwxr-xr-x   - hadoop supergroup          0 2025-04-24 13:58 Documents
--rw-r--r--   1 hadoop supergroup         21 2025-04-24 13:59 input.txt
--rw-r--r--   1 hadoop supergroup         40 2025-04-24 15:39 ip.txt
-drwxr-xr-x   - hadoop supergroup          0 2025-04-24 14:40 user07
-drwxr-xr-x   - hadoop supergroup          0 2025-04-24 14:27 user100
-drwxr-xr-x   - hadoop supergroup          0 2025-04-24 11:53 user69
-```
-
-# Step 6:
+---
+# Step 5:
 
 ```bash
 hadoop@pict-OptiPlex-5070:~$ hadoop fs -mkdir /advait
 hadoop@pict-OptiPlex-5070:~$ hadoop fs -mkdir /advait/input
 ```
 
-
-# Step 7: Create new Eclipse Java Project
+---
+# Step 6: Create new Eclipse Java Project
 
 ![](eclipse_setup.png)
 
 > Make sure to select Java SE 11!
 
-> Delete moduleinfo folder
 
-> Create a package in src folder -> `hadoop`
+**Step 6.1**  Delete moduleinfo folder
 
-> Create a class in `/src/hadoop` called `AdvaitHadoop`
+**Step 6.2**  Create a package in src folder -> `hadoop`
 
-> Right Click on Project Name -> Select Build Path -> Configure Build Path -> Classpath
+**Step 6.3**  Create a class in `/src/hadoop` called `WordCount`
 
-> Add all hadoop jars by clicking -> Add External Jar from `/home/hadoop/hadoop-3.3.5/share/hadoop/hdfs
+**Step 6.4**  Right Click on Project Name -> Select Build Path -> Configure Build Path -> Classpath then click `Add External Jar`
 
-> Add all jars from the sources directory as well
+**Step 6.5**  
+Goto `/home/hadoop/hadoop-3.3.5/share/hadoop/common/` and add all jars from that folder
 
-> Add all hadoop jars by clicking -> Add External Jar from `/home/hadoop/hadoop-3.3.5/share/hadoop/mapreduce
-> Add all hadoop jars by clicking -> Add External Jar from `/home/hadoop/hadoop-3.3.5/share/hadoop/mapreduce/sources
-
-> Add all hadoop jars by clicking -> Add External Jar from `/home/hadoop/hadoop-3.3.5/share/hadoop/common/
-> Add all hadoop jars by clicking -> Add External Jar from `/home/hadoop/hadoop-3.3.5/share/hadoop/common/sources
+**Step 6.6**  
+Goto `/home/hadoop/hadoop-3.3.5/share/hadoop/mapreduce` and add all jars from that folder
 
 Paste this code
 
@@ -104,7 +89,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
-public class AdvaitHadoop {
+public class WordCount {
 
 
 
@@ -178,7 +163,7 @@ public class AdvaitHadoop {
 
 	   Job job = Job.getInstance(conf, "word count");
 
-	   job.setJarByClass(AdvaitHadoop.class);
+	   job.setJarByClass(WordCount.class);
 
 	   job.setMapperClass(TokenizerMapper.class);
 
@@ -200,24 +185,28 @@ public class AdvaitHadoop {
 
 }
 ```
+---
+# Step 7: Save as Jar   
 
-# Step 8: 
-Right click on package `hadoop` and export as `jar` file
+Right click on package `hadoop` and export as `jar` file. Save the jar file as `wordcount.jar`
 
-# Step 9:
-Create a input.txt file in desktop where you have stored your jar file
-Then upload this input.txt file in the directory u made at the start
+---
+# Step 8: Create and Upload `input.txt`
+Create a `input.txt` file and add some lines.  
+Store the file in desktop where you have stored your jar file.  
+Then upload this input.txt file in the directory u made at the start  
 
 ```bash
-hadoop fs -put input.txt /advait/input
+hadoop fs -put input.txt /tirthraj/input
 ```
+---
+# Step 10 : Run the Map Reduce Job
+This is how to run the map reduce job
+`hadoop jar <jar-file-name> <package-name>.<class-name> <hfds-input-folder> <hdfs-output-folder>`  
 
-# Step 10
-Start the code in hadoop system
-
+Example
 ```bash
-hadoop jar advaitswordcount.jar hadoop.AdvaitHadoop /advait/input /advait/output
-// hadoop jar <jar-file-name> <package-name>.<class-name> <hfds-input-folder> <hdfs-output-folder>
+hadoop jar wordcount.jar hadoop.WordCount /tirthraj/input /tirthraj/output
 
 
 2025-04-24 16:57:23,426 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at /127.0.0.1:8032
@@ -240,21 +229,21 @@ hadoop jar advaitswordcount.jar hadoop.AdvaitHadoop /advait/input /advait/output
 2025-04-24 16:57:38,950 INFO mapreduce.Job: Counters: 54
 ```
 
+---
 
 # DONE!!!
-Go to the file and see the output from the webUI
-
+Go to the file and see the output from the webUI (`Utilites` > `Browse File System` > `tirthraj` > `output`)
+    
 OR 
-
-Run this command
+  
+Run this command  
 ```bash
-hadoop@pict-OptiPlex-5070:~/Desktop$ hadoop fs -cat /advait/output/part-r-00000
+hadoop@pict-OptiPlex-5070:~/Desktop$ hadoop fs -cat /tirthraj/output/part-r-00000
 
 
 Hello	1
 I	1
-Tirthraj	1
-Tirthraj.	1
+Tirthraj	2
 am	1
 best	1
 coding.	1
