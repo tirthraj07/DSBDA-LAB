@@ -1,3 +1,7 @@
+# Data Science and Big Data Analytics Lab
+
+This repo contains all my assignments during the DSBDA Lab in Sem 6.
+
 | Sr. | Name | Description |
 |----|------|-------------|
 | 1 | Data Wrangling I | Perform the following operations using Python on any open-source dataset (e.g., data.csv): <br> 1. Import all required Python Libraries. <br> 2. Locate an open-source dataset (e.g., https://www.kaggle.com), provide a clear description and source URL. <br> 3. Load the dataset into a pandas DataFrame. <br> 4. Data Preprocessing: Check for missing values using `isnull()`, get initial statistics using `describe()`, provide variable descriptions and types. Check dimensions of the DataFrame. <br> 5. Data Formatting and Normalization: Check and convert data types (character, numeric, integer, factor, logical). <br> 6. Turn categorical variables into quantitative variables. <br> In addition to the codes and outputs, explain every operation clearly. |
