@@ -97,6 +97,7 @@ Dataset[RowObject] (
     "this is line 2",
     "this is line 3"
 )
+```
 
 `.as[String]` tells Spark: "Hey, treat each line as a **String (plain text)** instead of a Row object."  
 
