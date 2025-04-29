@@ -124,7 +124,7 @@ Example
 Dataset[String]("this", "is", "line", "1","this", "is", "line", "2","this","is",...)
 ```
 
-If we had used `.map` it would have saved as follows:
+If we had used `.map` instead of `flatMap` it would have saved as follows:
 Example:
 ```
 Array (
@@ -132,7 +132,7 @@ Array (
     Array("this", "is", "line", "2"),
     Array("this", "is", "line", "3")
 )
-``
+```
 
 ### Step 7: Reducer
 
